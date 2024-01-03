@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="298.0" prefWidth="300.0" styleClass="main-pane" stylesheets="/styles/Styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.victor.vx.projects.ControllerLogin">
+    <children>
+        <TextField fx:id="TextSenha" layoutX="36.0" layoutY="143.0" prefHeight="25.0" prefWidth="229.0" styleClass="text-field" />
+        <TextField fx:id="TextUsuario" layoutX="36.0" layoutY="75.0" prefHeight="25.0" prefWidth="229.0" styleClass="text-field" />
+        <Label layoutX="84.0" layoutY="14.0" prefHeight="34.0" prefWidth="182.0" styleClass="label-title" text="Faça o login">
+            <font>
+                <Font name="Bauhaus 93" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="36.0" layoutY="48.0" styleClass="label-field" text="Usuário" />
+        <Label layoutX="35.0" layoutY="120.0" styleClass="label-field" text="Senha" />
+        <Button layoutX="36.0" layoutY="236.0" mnemonicParsing="false" onAction="#startLoginBtn" prefHeight="34.0" prefWidth="229.0" styleClass="button-login" text="Entrar" />
+        <Label fx:id="msgMenu" layoutX="71.0" layoutY="193.0" prefHeight="17.0" prefWidth="164.0" styleClass="label-message" />
+    </children>
+</AnchorPane>
